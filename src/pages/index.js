@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div>
       <Layout title={"Home Shopping"} >
-        <h2 className='text-center mt-5 mb-5' >List of Products</h2>
+        <img className='img-icon' src='/images/ShoppingProject.png' alt='icon' />
           <div className='container'>
             <div className='row row-cols-1 row-cols-md-4 g-4' >
               {

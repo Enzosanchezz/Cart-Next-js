@@ -135,15 +135,6 @@ a {
   text-align: center !important;
 }
 
-@media (max-width: 767px) {
-  .footer-copywright {
-    text-align: center !important;
-  }
-
-  .footer-body {
-    text-align: center !important;
-  }
-}
 
 .footer h3 {
   font-size: 1em;
@@ -165,3 +156,22 @@ a {
 .blockquote-footer {
   color: #40aabf !important;
 }
+.img-icon{
+  width: 20%;
+  margin-left: 39%;
+}
+
+@media (max-width: 767px) {
+  .footer-copywright {
+    text-align: center !important;
+  }
+
+  .footer-body {
+    text-align: center !important;
+  }
+  .img-icon{
+    width: 63%;
+    margin-left: 20%;
+  }
+}
+
