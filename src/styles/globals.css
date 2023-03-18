@@ -160,6 +160,11 @@ a {
   width: 20%;
   margin-left: 39%;
 }
+.icon-nav{
+  filter: invert(1);
+  width: 210px;
+  height: 55px;
+}
 
 @media (max-width: 767px) {
   .footer-copywright {
@@ -173,5 +178,11 @@ a {
     width: 63%;
     margin-left: 20%;
   }
+  .icon-nav{
+    width: 160px;
+      height: 40px;
+      margin-left: -15%;
+  }
 }
+
 

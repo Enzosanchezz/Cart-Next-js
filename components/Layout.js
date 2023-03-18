@@ -25,7 +25,7 @@ export default function Layout({title, children}) {
       <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
          <div className="container">
                     <Link href="/" className="navbar-brand" >
-                        Shopping
+                        <img className='icon-nav' src='/images/ShoppingNav.png' alt='shopping' />
                     </Link>
                 <div id="navbarNav">
                     <ul className="navbar-nav ms-auto ">

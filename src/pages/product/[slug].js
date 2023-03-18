@@ -35,7 +35,7 @@ export default function ProductScreen() {
   return (
     <div>
         <Layout title="Product single page" >
-            <h2 className='text-center mt-5 mb-5' >Single product</h2>
+            <img className='img-icon' src='/images/ShoppingProject.png' alt='Icon' />
             <div className='container' >
                 <button className='btn btn-primary mb-4' onClick={() =>router.push('/')} >Back to Shopping</button>
                 <div className='card mb-3 maximo-card' >
