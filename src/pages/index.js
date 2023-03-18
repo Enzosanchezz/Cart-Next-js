@@ -13,7 +13,7 @@ export default function Home() {
       <Layout title={"Home Shopping"} >
         <h2 className='text-center mt-5 mb-5' >List of Products</h2>
           <div className='container'>
-            <div className='row row-cols-2 row-cols-md-4 g-4' >
+            <div className='row row-cols-1 row-cols-md-4 g-4' >
               {
                 data.products.map((product) => (
                   <ProductItem key={product.slug} product={product} />
