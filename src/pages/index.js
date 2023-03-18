@@ -4,6 +4,7 @@ import styles from '@/styles/Home.module.css'
 import Layout from '../../components/Layout'
 import data from '../../utils/data'
 import ProductItem from '../../components/ProductItem'
+import Footer from '../../components/Footer'
 
 
 
@@ -22,6 +23,7 @@ export default function Home() {
             </div>
           </div>
       </Layout>
+      <Footer/>
     </div>
   )
 }
