@@ -27,9 +27,6 @@ export default function Layout({title, children}) {
                     <Link href="/" className="navbar-brand" >
                         Shopping
                     </Link>
-                    {/* <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button> */}
                 <div id="navbarNav">
                     <ul className="navbar-nav ms-auto ">
                         <li className="nav-item">    
@@ -37,16 +34,6 @@ export default function Layout({title, children}) {
                                 <BsCart2/> <span className='text-white rounded p-1' >{cartItemsCount}</span>
                             </Link>
                         </li>
-                        {/* <li className="nav-item">
-                            <Link href="/" className="nav-link" >
-                                Features
-                            </Link>
-                        </li>
-                        <li className="nav-item">
-                            <Link href="/" className="nav-link" >
-                                Pricing
-                            </Link>
-                        </li> */}
                     </ul>
                 </div>
         </div>
