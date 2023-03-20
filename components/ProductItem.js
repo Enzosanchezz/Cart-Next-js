@@ -12,7 +12,7 @@ export default function ProductItem({product}) {
                     <p>{product.category}</p>
                     <p>{product.price}</p>
                     <Link href={`/product/${product.slug}`} >
-                        <button className='btn btn-primary' >
+                        <button className='btn btn-primary btn-p ' >
                             View Product
                         </button>
                     </Link>

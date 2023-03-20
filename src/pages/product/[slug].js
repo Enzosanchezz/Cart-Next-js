@@ -36,8 +36,7 @@ export default function ProductScreen() {
     <div>
         <Layout title="Product single page" >
             <img className='img-icon' src='/images/ShoppingProject.png' alt='Icon' />
-            <div className='container' >
-                <button className='btn btn-primary mb-4' onClick={() =>router.push('/')} >Back to Shopping</button>
+            <div className='container'  style={{display: "flex", justifyContent: "center"}}>
                 <div className='card mb-3 maximo-card' >
                     <div className='row g-0' >
                         <div className='col-md-4'>
@@ -55,7 +54,9 @@ export default function ProductScreen() {
                                     {product.description}
                                 </h6>
                                 <p>{product.countInStock > 0 ? "In Stock" : "Unavailable" }</p>
-                                <button className='btn btn-primary' onClick={handleAddCart} >Add to Cart</button>
+                                <button className='btn btn-primary btn-p' onClick={handleAddCart} >Add to Cart</button>
+                                <br/>
+                                <button className='btn btn-primary mt-3 btn-p' onClick={() =>router.push('/')} >Back to Shopping</button>
                             </div>
                         </div>
                         

@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React, { useContext } from 'react'
 import Layout from '../../components/Layout'
 import { Store } from '../../utils/Store'
+import { BsCartXFill } from "react-icons/bs"
 
 export default function Cart() {
 
@@ -19,12 +20,13 @@ export default function Cart() {
   return (
     <div>
         <Layout title="Shopping Cart" >
-            <h2 className='mt-5 mb-5 text-center' >Shopping Cart</h2>
+            {/* <h2 className='mt-5 mb-5 text-center' >Shopping Cart</h2> */}
             <div className='container' >
                 {
                     cartItems.length === 0 ? (
                     <div className='empty' >
-                        cart is empty.&nbsp;&nbsp;<Link href="/" >Go Shopping</Link>
+                        <img className='img-cart-empty' src='/images/cartEmpty.png' />
+                       <Link href="/" style={{textDecoration: "none", color:'black'}} >Go Shopping</Link>
                     </div>
                     ) : (
                     <div>
