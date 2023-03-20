@@ -5,7 +5,7 @@ export default function ProductItem({product}) {
   return (
     <div>
         <div className='col'>
-            <div className='card' >
+            <div className='card card-p' >
                 <img src={product.image} alt='' className='image-card' />
                 <div className='card-body'>
                     <h5>{product.name}</h5>

@@ -20,7 +20,6 @@ export default function Cart() {
   return (
     <div>
         <Layout title="Shopping Cart" >
-            {/* <h2 className='mt-5 mb-5 text-center' >Shopping Cart</h2> */}
             <div className='container' >
                 {
                     cartItems.length === 0 ? (
